@@ -7,11 +7,11 @@ using UnityEngine.SceneManagement;
 public class CollisionHandler : MonoBehaviour
 {
     [SerializeField] float levelLoadDelay = 2f;
+
     [SerializeField] AudioClip successAudio;
     [SerializeField] AudioClip crashAudio;
     [SerializeField] ParticleSystem successParticle;
     [SerializeField] ParticleSystem crashParticle;
-
     AudioSource myAudioSource;
 
     bool isTransitioning = false;
